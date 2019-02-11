@@ -33,12 +33,12 @@ Use './materia.sh --scheme scheme_name' to install the scheme.
 ```
 Note: you can add as many as you want of color schemes to `colorschemes` file. To add your own color schemes please follow the format listed in the file (`colorschemes`).
 
-##Screenshots 
-### n30x-grey color scheme
+## Screenshots 
+#### n30x-grey color scheme
 ![n30x-grey](https://user-images.githubusercontent.com/10103340/52574480-432dca80-2dd1-11e9-8a97-22cb9ea27544.png)
-### n30x-drakw color scheme
+#### n30x-drakw color scheme
 ![n30x-darkw](https://user-images.githubusercontent.com/10103340/52574490-488b1500-2dd1-11e9-9926-7c9e1b878c22.png)
-### solarized-light color scheme
+#### solarized-light color scheme
 ![solarized-light](https://user-images.githubusercontent.com/10103340/52574464-39a46280-2dd1-11e9-98b5-4d3a07ea03ad.png)
 
 ## Installation
@@ -47,13 +47,13 @@ Note: you can add as many as you want of color schemes to `colorschemes` file. T
 3. Copy the contents of Materia-colorschemes(step 2) to Materia theme(step 1).
 4. cd to  `materia-theme-20181125` and run `./materia.sh --help` form more information and usage examples.
 
-### Install from a pre-defined color schemes
+#### Install from a pre-defined color schemes
 ```sh
 $ ./materia.sh --scheme solarized-light
 $ ./materia.sh --scheme n30x-dark
 $ ./materia.sh --scheme gruvbox-light
 ```
-### Install from a pre-defined color scheme with few changes
+#### Install from a pre-defined color scheme with few changes
 ```sh
 $ ./materia.sh --scheme solarized-light --sbg c70000    # use solarized color scheme with different selection bg
 $ ./materia.sh --scheme gruvbox-light --accent 0073e6   # use gruvbox color scheme with different accent color
@@ -61,7 +61,7 @@ $ ./materia.sh --scheme gruvbox-light --tbg 424242 --tfg      # use gruvbox colo
 ```
 Note: You can change as many colors as you want until you get satisfied (see `./materia.sh -h` for more information)
 
-### Create your own custom theme
+#### Create your own custom theme
 ```sh
 $ ./materia.sh -c light -s compact --bg 4d4d4d
 $ ./materia.sh -c light -s compact --bg 111111 --bg2 222222 --bg3 333333 ...
