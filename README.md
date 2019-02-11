@@ -35,7 +35,7 @@ Note: you can add as many as you want of color schemes to `colorschemes` file. T
 
 ## Installation
 1. Download Materia theme version v20181125 from [nana-4/materia-theme-v20181125](https://github.com/nana-4/materia-theme/tree/v20181125).
-2. Download Materia-colorschemes script.
+2. Download [Materia-colorschemes-v20181125](https://github.com/n3oxmind/Materia-theme-colorschemes/tree/v20181125).
 3. Copy the contents of Materia-colorschemes(step 2) to Materia theme(step 1).
 4. cd to  `materia-theme-20181125` and run `./materia.sh --help` form more information and usage examples.
 
