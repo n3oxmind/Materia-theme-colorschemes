@@ -1,7 +1,7 @@
 # Materia-theme-colorschemes
 Materia-colorschemes is a shell script that can be used to modify/customize/tweak the original Materia theme [nana-4/materia-theme](https://github.com/nana-4/materia-theme/tree/v20181125). Here are some features:
 - A pre-defined list of color schemes include but not limited to (solarized, gruvbox, tomorrow,...,etc)
-- A convenient way to Apply different color scheme base on pre-defined color schemes(see ./materia.sh -l)
+- A convenient way to apply different color scheme base on pre-defined color schemes(see ./materia.sh -l)
 - Create a custom theme with different colors of your choice (see ./materia.sh -h)
 - Change almost every details until you get satisfied (see ./materia.sh -h)
 - Ability to render assets based on the new color scheme (see ./materia.sh -h)
@@ -24,7 +24,7 @@ gruvbox-light:      light compact #3c3836 #fbf1c7 #ebdbb2 #d5c4a1 #458588 #f9f5d
 gruvbox-dark:        dark compact #ebdbb2 #282828 #3c3836 #32302f #458588 #ebdbb2 #83a598 #32302f #fb4934 default 0  34px
 tomorrow:           light compact #4d4d4c #ffffff #f2f2f2 #e4e4e4 #3e999f #ffffff #BCAAA4 #282828 #3e999f default 0  34px
 tomorrow-night:      dark compact #cccccc #001e33 #000f1a #00001a #515151 #f2777a #404040 #cccccc #f2777a #303030 1  34px
-n30x-darkw:          dark compact #00997a #252525 #2a2a2a #2d2d2d #323232 #9575cd #404040 #000000 #c2185b #1a1a1a 1  34px
+n30x-darkw:          dark compact #00997a #252525 #2a2a2a #2d2d2d #323232 #9575cd #404040 #000000 #c2185b #9575cd 1  34px
 n30x-darkg:          dark compact #6c7043 #252525 #2a2a2a #2d2d2d #323232 #b49a31 #1a1a1a #b49a31 #963d97 #000000 1  34px
 n30x-light:         light compact #424242 #fafafa #f5f5f5 #eeeeee #03a9f4 #ffffff #78909c #ffffff #e91e63 default 0  34px
 n30x-grey:          light compact #424242 #e0e0e0 #d9d9d9 #cccccc #cccccc #000000 #bfbfbf #000000 #0288d1 default 1  34px
@@ -32,6 +32,14 @@ n30x-grey:          light compact #424242 #e0e0e0 #d9d9d9 #cccccc #cccccc #00000
 Use './materia.sh --scheme scheme_name' to install the scheme.
 ```
 Note: you can add as many as you want of color schemes to `colorschemes` file. To add your own color schemes please follow the format listed in the file (`colorschemes`).
+
+##Screenshots 
+### n30x-grey color scheme
+![n30x-grey](https://user-images.githubusercontent.com/10103340/52574480-432dca80-2dd1-11e9-8a97-22cb9ea27544.png)
+### n30x-drakw color scheme
+![n30x-darkw](https://user-images.githubusercontent.com/10103340/52574490-488b1500-2dd1-11e9-9926-7c9e1b878c22.png)
+### solarized-light color scheme
+![solarized-light](https://user-images.githubusercontent.com/10103340/52574464-39a46280-2dd1-11e9-98b5-4d3a07ea03ad.png)
 
 ## Installation
 1. Download Materia theme version v20181125 from [nana-4/materia-theme-v20181125](https://github.com/nana-4/materia-theme/tree/v20181125).
