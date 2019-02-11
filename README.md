@@ -14,7 +14,7 @@ Here are some tweaks
 - Auto color the Dash board based on the new color scheme
 - Better line separator based on the fg color
 
-### List pre-defined color schemes 
+#### List pre-defined color schemes 
 ```sh
 $./materia.sh --list
 scheme-template:    color size     fg      bg      bg2     bg3     sbg     sfg     tbg     tfg     accent btn2-fg hl tbh
